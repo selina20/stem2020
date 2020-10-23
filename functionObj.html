@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function a(){}//a라는 함수를 선언하고
+
+	a={ //a라는 함수를 정의한 것
+		b:function(){
+
+		}
+	};
+
+	function cal(func, num){
+		return func(num)
+	}
+	function increase(num){
+		return num+1
+	}
+	function decrease(num){
+		return num-1
+	}
+	
+	alert(cal(increase,1));
+	alert(cal(decrease,1));
+
+</script>
+</body>
+</html>

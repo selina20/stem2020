@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var li = ['a', 'b', 'c', 'd', 'e'];
+	alert(li);
+	li.push('f'); //1.1인자로 전달된 값을 배열(li)에 추가하는 명령
+	alert(li);
+	li = li.concat(['f','g']); //1.2복수의 원소를 배열에 추가하는 방법 
+	alert(li);
+
+	var li = ['a','b','c','d','e'];
+	li.unshift('z'); // unshift는 인자로 전달한 값을 배열의 첫번째 원소로 추가하고, 배열의 기존 값들의 색인을 1씩 증가시킴.
+	alert(li);
+
+	li.shift('z'); //첫번째  인자에 해당하는 원소부터 두번째 인자에 해당하는 원소의 숫자만큼의 값을 배열로부터 제거한 후에 리턴 
+	alert(li);
+
+	var li = ['a','b','c','d','e'];
+	li.splice(2,0,'B'); //두번째 인덱스 뒤에 대문자 B를 넣는 
+	alert(li);
+
+	var li = ['a','b','c','d','e'];
+	li.pop(); //배열 끝점의 원소를 배열 liㅇㅔㅅㅓ ㅈㅔㄱㅓㅎㅏㄴㄷㅏ.
+	alert(li);
+
+	var li =['c','e','a','b','d'];
+	li.sort(); // 알파벳 순으로 정렬
+	alert(li);
+
+	var li = ['c','e','a','b','d'];
+	li.reverse(); // 현재 정렬되어 있는 배열 원소 역순으 정렬
+	alert(li);
+</script>
+</body>
+</html>
