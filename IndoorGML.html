@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Indoor GML For IMDF </title>
+        
+    <!-- GML/IMDF file upload -->
+    <script type="text/javascript">              
+    function myFunction(){
+      var x = document.getElementById("myDIV");
+      var y = document.getElementById("gmlf");
+            
+      if (x.innerHTML === "Indoor GML To IMDF") {
+        x.innerHTML = "IMDF To Indoor GML";
+        y.innerHTML = "<p id=\"zipf\">zip 파일 <input type=\"file\" accept=\".zip\"></p>";
+      } else if (x.innerHTML === "IMDF To Indoor GML") {
+        x.innerHTML = "Indoor GML To IMDF";
+        y.innerHTML = "<p id=\"gmlf\">gml 파일 <input type=\"file\" accept=\".gml\"></p>";
+      }
+    }
+    </script>
+
+    </head>
+    
+    <body>
+    <p>Title: Indoor GML For IMDF</p>
+
+    <button id="myDIV" onClick="myFunction()">Indoor GML To IMDF</button>
+    
+    <p id="gmlf">gml 파일 <input type="file" accept=".gml"></p>
+    <p hidden id="zipf">zip 파일 <input type="file" accept=".zip"></p>
+        
+  
+    
+        
+    </body>    
+</html>
