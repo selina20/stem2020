@@ -1,0 +1,82 @@
+body{
+    margin: 50 0px;
+    padding: 0;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 10;
+}
+
+
+#indoorBtn{ // 변환 아이디
+    background-size: auto;
+    border: none;
+    margin-bottom: 20;
+    margin-top: 0;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    overflow: visible;
+    width: auto;
+    padding: 15px 32px;
+}
+
+#indoorBtn:hover{
+    background-color: tomato;
+    color: floralwhite;
+    padding: 10 10 10 10;
+    background-size: auto;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    overflow: visible;
+    width: auto;
+    padding: 15px 32px;
+}
+
+#startBtn{ // 스타트버튼
+    background-size: auto;
+    border: none;
+    margin-bottom: 20;
+    margin-top: 0;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    overflow: visible;
+    width: auto;
+    padding: 10px 30px;
+}
+
+#StartBtn:hover{
+    background-color: cornflowerblue;
+    color: floralwhite;
+    padding: 10 10 10 10;
+    background-size: auto;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    overflow: visible;
+    width: auto;
+    padding: 10px 30px;
+}
+
+.uploadfile{
+    padding: 0 0 20 20;
+    align-items: center;
+}
+
+#gmlf{
+    text-decoration: none;
+    padding-left: 10%;
+}
+
+#gmlf:hover{
+   color: tomato;
+}
+
+#zipf{
+    text-decoration: none;
+    padding-left: 10%;
+}
+
+#zipf:hover{
+   color: tomato;
+}

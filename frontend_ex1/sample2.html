@@ -1,0 +1,40 @@
+<html>
+<head>
+    <link rel="stylesheet" href="sample2.css"/>
+</head>
+<body>
+<!--
+    <!--1. 영역의 보이기 순서(z-index)를 지정하지 않은 태그 모양
+    <div style="position: relative;"/> 첫번째 DIV 영역
+    <div style="position: relative; left:10px; top:-70px;"/> 두번째 DIV 영역
+    -->
+    <!--2. 영역의 보이기 순서(z-index)를 지정한 태그 모양
+    <div style="position: relative; z-index: 2;"/> 첫번째 DIV 영역
+    <div style="position: relative; left:10px; top: -70px; z-index: 1;"/>두번째 DIV 영역
+    -->
+    <!--3. 글자 겹치기(z-index 지정하지 않음)
+    <div style="color: gold; font-size: 70px; font-weight: 900; height: 100px; position: relative;"/>가나다라  ABCD
+    <div style="color: lime; font-size: 70px; font-weight: 900; height: 100px; position: relative; left: 5px;  top: -95px;"/>가나다라  ABCD
+    -->
+    <!--3-1. 글자 겹치기(z-index 지정함)
+    <div style="color: gold; font-size: 70px; font-weight: 900; height: 100px; position: relative; z-index: 2;"/>
+    가나다라  ABCD
+    -->
+    <!-- <div style="color: lime; font-size: 70px; font-weight: 900; height: 100px; position: relative; left: 5px;  top: -95px; z-index: 1;"/>
+    가나다라  ABCD
+    -->
+    
+    <!--동영상 반응형으로 지정-->
+    <div class="videoTeduri">
+      <!-- 유투브 임베드 코드를 복사하여 그대로 붙여 넣음 -->
+      <iframe width="560" height="349" src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" frameborder="0" lowfullscreen></iframe>
+    </div>
+    
+    
+</div>
+    
+</div>
+    
+</div>
+</body>
+</html>
