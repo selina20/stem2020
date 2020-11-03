@@ -1,0 +1,126 @@
+body{
+    margin: 50 0px;
+    padding: 0;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 10;
+}
+
+
+#indoorBtn{ // 변환 아이디
+    background-size: auto;
+    background-color: #fffff0;
+    border: none;
+    margin-bottom: 20;
+    margin-top: 0;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    overflow: visible;
+    width: auto;
+    padding: 15px 32px;
+    box-shadow: 1px 1px 0px;
+}
+
+#indoorBtn:hover{
+    background-color: tomato;
+    color: floralwhite;
+    background-size: auto;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    overflow: visible;
+    width: auto;
+    padding: 15px 32px;
+}
+
+#startBtn{ // 스타트버튼
+    background-size: auto;
+    background-color: #fffff0;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    overflow: visible;
+    width: auto;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: 1px 1px 0px;
+    position: absolute;
+    right:100px;
+}
+
+#StartBtn:hover{
+    background-color: cornflowerblue;
+    color: floralwhite;
+    background-size: auto;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    width: auto;
+    padding: 10px 30px;
+    box-shadow: 1px 1px 0px;
+}
+
+#bottomTxt{
+    float: left;
+    margin-left: 20;
+    font-family:georgia; 
+    font-size: 20; 
+    color: white; 
+    margin-top:7;
+}
+
+
+#seehowBtn{
+    color: white;
+    border-color: white;
+    background-size: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    padding: 10px 30px;
+    border: 0.5px white;
+    border-style: dotted;
+    margin-right: 80px;
+        
+}
+
+#seehowBtn:hover{
+    color:tomato;
+    background-color: white;
+    padding: 10 10 10 10;
+    background-size: auto;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    overflow: visible;
+    width: auto;
+    padding: 10px 30px;
+}
+
+#bottomDiv{
+    margin-bottom: 100; 
+    background-color: tomato; 
+    padding: 30 150;
+    margin-top: 250;
+}
+
+.uploadfile{
+    padding: 0 0 50 20;
+}
+
+
+#gmlf{
+    text-decoration: none;
+}
+
+#gmlf:hover{
+   color: tomato;
+}
+
+#zipf{
+    text-decoration: none;
+}
+
+#zipf:hover{
+   color: tomato;
+}
