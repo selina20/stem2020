@@ -1,14 +1,53 @@
- <!--Progress bar-->
-
+<!DOCTYPE h>
 <html>
-<head>
-    <script async src="http://jsfiddle.net/3c6spx59/embed/"></script>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
-    <link href="progressbar.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-    <div id="container"></div> <!--css id/class-->
-</body>
-    <script src="./progressbar.js"></script>
-    <script src="./main.js"></script>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>IndoorGML For IMDF </title>
+        
+        <!--progress bar part-->
+        <script async src="http://jsfiddle.net/3c6spx59/embed/"></script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+        <link href="progressbar.css" rel="stylesheet" type="text/css" />
+        <!--until here-->
+        
+        <link href="Index.css" rel="stylesheet" type="text/css"/>
+        
+        <!-- GML/IMDF file upload -->
+        <script type="text/javascript">              
+        function fileCall(){
+          var x = document.getElementById("indoorBtn");
+          var y = document.getElementById("gmlf");
+        
+          if (x.innerHTML === "Indoor GML To IMDF") {
+            x.innerHTML = "IMDF To Indoor GML";
+            y.innerHTML = "<p id=\"zipf\">zip 파일 <input type=\"file\" accept=\".zip\"></p>";
+          } else if (x.innerHTML === "IMDF To Indoor GML") {
+            x.innerHTML = "Indoor GML To IMDF";
+            y.innerHTML = "<p id=\"gmlf\">gml 파일 <input type=\"file\" accept=\".gml\"></p>";
+          }
+        }
+        </script>
+        </head>
+
+        <body>
+        <h1>Indoor GML For IMDF</h1>
+
+        <div class="uploadfile">
+            <button id="indoorBtn" onClick="fileCall()">Indoor GML To IMDF</button>
+            <p id="gmlf" style="margin-left: 100">gml 파일 <input type="file" accept="gml"></p> 
+            <button id="startBtn" style="mmargin-right=10;">Start</button>
+        </div>
+                    
+        <!--progress bar part-->
+        <div id="container"></div> <!--css id/class 공부-->
+        <script src="./progressbar.js"></script>
+        <script src="./main.js"></script>
+        <!--until here-->
+        
+            <div id="bottomDiv">                
+                 <span id="bottomTxt" >Indoor GML is the indoor data development platform with the best support for spatial!</span>
+                <button id="seehowBtn" style="font-family:georgia; font-size: 15;">See How</button>
+            </div>
+            
+    </body>    
 </html>
