@@ -1,0 +1,38 @@
+<html>
+<head>
+    <script async src="http://jsfiddle.net/3c6spx59/embed/"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+    <link href="progressbar.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="container">
+    
+        <script>
+        $(document).ready(function(){
+            var progressbar = $('#progressbar'),
+            max=progressbar.attr('max'),
+            time=(1000/max)*5,
+            value = progressbar.val();
+                        
+            var loading = function(){
+                value +=1;
+                addValue = progressbar.val(value);
+                
+                $('.progress-value').html(value+'%');
+                
+                if(value==max){
+                    clearInterval(animate);
+                }
+            };
+            
+            var animat=setInterval(function(){
+                loading()},time);
+            };
+        );
+        
+        </script>
+    </div> <!--css id/class-->
+    <script src="./progressbar.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

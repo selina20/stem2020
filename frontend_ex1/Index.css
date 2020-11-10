@@ -1,0 +1,108 @@
+body{
+    margin: 70px 0px;
+    text-align: center;
+    background-color: #fffff0;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 10;
+}
+
+.uploadfile{
+    position: relative;
+    padding: 25;
+    background-color: antiquewhite !important; 
+    border : dotted 1px; 
+    border-radius: 10px; 
+    border-color: tomato; 
+    margin: 60 150 100;
+}
+
+#indoorBtn{ // 변환 아이디
+    position: inherit;
+    float: left;
+    background-color: #fffff0;
+    background-size: auto;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    border : none;
+    overflow: visible;
+    width: auto;
+    padding: 10px 28px;
+    color: tomato;
+}
+
+#indoorBtn:hover{
+    background-color: tomato;
+    color: floralwhite;
+    background-size: auto;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    width: auto;
+    padding: 10px 28px;
+}
+
+#startBtn{ // 스타트버튼
+    background-size: auto;
+    background-color: #fffff0;
+    border-style: solid;
+    border: 0.5px;
+    border-color: tomato;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    /*width: auto;*/
+    padding: 10px 30px;
+    margin: 
+    border: none;
+    color: tomato;
+}
+
+#StartBtn:hover{
+    background-color: tomato;
+    color: floralwhite;
+    background-size: auto;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+
+    padding: 10px 30px;
+}
+
+#gmlf{
+    margin-left:10px;
+    color: dimgray;
+}
+
+#gmlf:hover{
+   color: tomato;
+}
+
+#zipf{
+    text-decoration: none;
+}
+
+#zipf:hover{
+   color: tomato;
+}
+
+
+
+#bottomTxt{
+    font-family:georgia; 
+    font-size: 20; 
+    color: white; 
+}
+
+#bottomDiv{
+    background-color: tomato; 
+    padding: 30;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#container{
+    margin-top: 5%;
+}
