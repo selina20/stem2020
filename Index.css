@@ -1,8 +1,7 @@
 body{
-    margin: 50 0px;
-    padding: 0;
+    margin: 70px 0px;
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: #fffff0;
 }
 
 p{
@@ -10,19 +9,28 @@ p{
     margin-top: 10;
 }
 
+.uploadfile{
+    position: relative;
+    padding: 25;
+    background-color: antiquewhite !important; 
+    border : dotted 1px; 
+    border-radius: 10px; 
+    border-color: tomato; 
+    margin: 60 150 100;
+}
 
 #indoorBtn{ // 변환 아이디
-    background-size: auto;
+    position: inherit;
+    float: left;
     background-color: #fffff0;
-    border: none;
-    margin-bottom: 20;
-    margin-top: 0;
+    background-size: auto;
     border-radius: 10px;
     transition-duration: 0.4s;
+    border : none;
     overflow: visible;
     width: auto;
-    padding: 15px 32px;
-    box-shadow: 1px 1px 0px;
+    padding: 10px 28px;
+    color: tomato;
 }
 
 #indoorBtn:hover{
@@ -31,86 +39,38 @@ p{
     background-size: auto;
     border-radius: 10px;
     transition-duration: 0.4s;
-    overflow: visible;
     width: auto;
-    padding: 15px 32px;
+    padding: 10px 28px;
 }
 
 #startBtn{ // 스타트버튼
     background-size: auto;
     background-color: #fffff0;
+    border-style: solid;
+    border: 0.5px;
+    border-color: tomato;
     border-radius: 10px;
     transition-duration: 0.4s;
-    overflow: visible;
-    width: auto;
+    /*width: auto;*/
     padding: 10px 30px;
+    margin: 
     border: none;
-    box-shadow: 1px 1px 0px;
-    position: absolute;
-    right:100px;
+    color: tomato;
 }
 
 #StartBtn:hover{
-    background-color: cornflowerblue;
+    background-color: tomato;
     color: floralwhite;
     background-size: auto;
     border-radius: 10px;
     transition-duration: 0.4s;
-    width: auto;
-    padding: 10px 30px;
-    box-shadow: 1px 1px 0px;
-}
 
-#bottomTxt{
-    float: left;
-    margin-left: 20;
-    font-family:georgia; 
-    font-size: 20; 
-    color: white; 
-    margin-top:7;
-}
-
-
-#seehowBtn{
-    color: white;
-    border-color: white;
-    background-size: auto;
-    background-color: transparent;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-    padding: 10px 30px;
-    border: 0.5px white;
-    border-style: dotted;
-    margin-right: 80px;
-        
-}
-
-#seehowBtn:hover{
-    color:tomato;
-    background-color: white;
-    padding: 10 10 10 10;
-    background-size: auto;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-    overflow: visible;
-    width: auto;
     padding: 10px 30px;
 }
-
-#bottomDiv{
-    margin-bottom: 100; 
-    background-color: tomato; 
-    padding: 30 150;
-    margin-top: 250;
-}
-
-.uploadfile{
-    padding: 0 0 50 20;
-}
-
 
 #gmlf{
-    text-decoration: none;
+    margin-left:10px;
+    color: dimgray;
 }
 
 #gmlf:hover{
@@ -123,4 +83,26 @@ p{
 
 #zipf:hover{
    color: tomato;
+}
+
+
+
+#bottomTxt{
+    font-family:georgia; 
+    font-size: 20; 
+    color: white; 
+}
+
+#bottomDiv{
+    background-color: tomato; 
+    padding: 30;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#container{
+    margin-top: 5%;
 }
